@@ -1,1 +1,6 @@
-sql/revenue_analysis.sql
+sql/1_final_sql.sql
+sql/2_revenue_analysis_sql.sql
+sql/3_stage_finding_sql.sql
+sql/4_funnel_analysis_sql.sql
+sql/5_traffic_analysis_sql.sql
+sql/6_customer_journey_analysis_sql.sql
