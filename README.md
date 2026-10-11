@@ -1,18 +1,18 @@
 # E-Commerce-SQL-Project'
-##🧾 Project Overview
+## 🧾Project Overview
 The dataset includes user activities such as page views, add‑to‑cart actions, checkout steps, payment information, completed purchases, traffic sources, timestamps, and transaction amounts.
 
 The goal of this project is to understand how customers move through the platform, identify where drop‑offs happen, and measure how effectively the platform converts visitors into buyers. By analyzing conversion rates, customer journey time, and revenue metrics, the project provides insights that can help improve user experience and increase business performance.
 
 
-##🎯 Project Obectives
+## 🎯Project Obectives
 - 📈 Measure the conversion rate at each stage of the e‑commerce funnel.
 - 🔍 Identify stages where the platform loses potential customers.
 - ⏱️ Analyze customer journey time from first interaction to final purchase.
 - 🌐 Compare performance across different traffic sources (social, organic, paid ads, email).
 
 
-## Dataset Description 
+## 🧾Dataset Description 
 - The dataset contains 5000 records from Platform
 
 ### 📘 Data Dictionary
@@ -32,13 +32,13 @@ The goal of this project is to understand how customers move through the platfor
 - SQL (MySQL)
 - Microsoft SQL Server (SSMS)
 
-##📈 SQL Analysis 
+## 📈SQL Analysis 
 - Revenue Analysis
 - Funnel Analysis: page view → add to cart → checkout → payment → purchase.
 - Traffic Source Performance: how different marketing channels contribute to conversions.
 - Customer Journey Timing: average time between key actions (view → cart → purchase).
 
-##📈 SQL Queries 
+## 📈SQL Queries 
 
 ### ❓Q1. Finding platform's revenue and conversion metrics. 
 ``` sql
@@ -156,17 +156,17 @@ order by concat(round(purchase/views* 100,2), ' %') desc ;
 ```
 <img width="625" height="77" alt="Q5" src="https://github.com/user-attachments/assets/763fb5ab-c195-4b6f-8456-5764d3bf46d2" />
 
-##🔑 Key findings: 
+## 🔑Key findings: 
 - Most customer drop‑off happens between viewing a product and starting checkout. Simplifying these steps or adding AI‑based guidance could improve conversion.
 - Email traffic performs the best, with the highest view‑to‑cart rate (62%) and strongest overall conversion (34%).
 - Paid ads also perform well, delivering the second‑highest overall conversion (21%).
 - Organic and social traffic convert poorly, at 16.83% and 6.93% respectively.
 - Customers who complete a purchase typically take around 25 minutes from first view to final checkout.
 
-##🛠️ Recommendations: 
+## 🛠️Recommendations: 
 - Simplify the checkout flow: Reduce unnecessary steps or form fields to minimize drop‑off 
 - Prioritizing in free channels, especially in Email Marketing, following by organic and social engagement to maximize revenue. Paid ads are the lastly option for considering because of decreasing revenue when company needs to allocate budget for advertising effectively
 - Provide real‑time guidance during browsing: Implementing AI‑based product recommendations or assistance can help users move smoothly from viewing to purchasing.
   
-##🧾 Conclusion: 
+## 🧾Conclusion: 
 The results highlight where customers drop off, which channels convert best, and how the journey can be optimized to increase overall conversions.
